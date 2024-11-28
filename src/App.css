@@ -1,0 +1,11 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(73, 50, 75);
+  
+}
+
+
