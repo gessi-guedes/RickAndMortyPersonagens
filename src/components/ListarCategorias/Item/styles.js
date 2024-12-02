@@ -26,7 +26,7 @@ export const StyledName = styled.h1`
   padding:2px;
 
     &:hover{
-
+      color:pink;
       box-shadow:1px 1px 10px black;
     }
   `;
@@ -37,7 +37,7 @@ export const StyledName = styled.h1`
 
     &:hover{
       transform:scale(1.07);
-      color: orange;
+      color: pink;
 
     }
     

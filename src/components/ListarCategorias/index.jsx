@@ -67,9 +67,6 @@ export default function Listar() {
 
     };
 
-    console.log('id:', count)
-    console.log('pagina:', pages)
-
     useEffect(() => {
         getCategories(pages);
     }, [refresh]);
@@ -77,7 +74,9 @@ export default function Listar() {
 
     return (
         <s.StyledDivPrimary>
+
             <s.StyledDiv>
+
                 <s.StyledButton onClick={limitBack}>
                     <s.StyledImg src={Left} />
                 </s.StyledButton>
@@ -88,7 +87,9 @@ export default function Listar() {
                 <s.StyledButton onClick={limitPass}>
                     <s.StyledImg src={Right} />
                 </s.StyledButton>
+
             </s.StyledDiv>
+            
         </s.StyledDivPrimary>
     );
 }
